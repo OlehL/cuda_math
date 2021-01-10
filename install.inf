@@ -1,0 +1,37 @@
+[info]
+title=Math
+desc=math core
+type=cudatext-plugin
+subdir=cuda_math
+homepage=
+
+[item1]
+section=events
+events=on_change_slow,on_complete
+lexers=Math
+
+[item2]
+section=commands
+caption=Math\Calc all
+method=calc_all
+
+[item3]
+section=commands
+caption=Math\Calc selection and replace
+method=calc_sel_and_replace
+
+[item4]
+section=commands
+caption=Math\Calc selection and append
+method=ccalc_sel_and_append
+
+[item5]
+section=commands
+caption=Math\Calc selection
+method=calc_sel_and_show
+
+[item10]
+section=commands
+caption=Math\Config...
+method=configure
+menu=o
